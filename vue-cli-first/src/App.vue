@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
     <MYtitle/>
+    <jumboTron/>
   </div>
 </template>
 
 <script>
 import MYtitle from './components/title.vue'
+import jumboTron from './components/jumbotron.vue'
 
 export default {
   name: 'App',
   components: {
-    MYtitle
+    MYtitle,
+    jumboTron
   }
 }
 </script>

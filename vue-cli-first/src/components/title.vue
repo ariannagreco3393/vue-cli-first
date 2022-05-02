@@ -12,6 +12,6 @@ export default {
 
 <style scoped>
     .hi{
-        color: aquamarine;
+        color: rgb(50, 227, 168);
     }
 </style>
