@@ -13,15 +13,18 @@ export default {
 <style scoped>
     .jumbo {
         margin: auto;
-    }
-    img {
-        width: 1200px;
-    }
-    h1 {
-        padding: 5rem;
+        position: relative;
         background-image: url(https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68);
-        height: 400px;
-        font-size: 60px;
+        height: 800px;
         background-position: center;
+    }
+   
+    h1 {
+        color: white;
+        font-size: 60px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 </style>
